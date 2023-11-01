@@ -54,7 +54,6 @@ header {
 .characters li:hover{
     box-shadow: 0 220px 0 0 rgb(255,0,0) inset;
 }
-
 .characters li h5{
     color: white;
     padding: 12px 8px
@@ -63,6 +62,27 @@ header {
 .characters li a {
     text-decoration: none;
 }
+
+article, #instruction {
+    padding: 20px;
+}
+
+article h3, #instruction h3{
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 14px;
+    
+}
+
+article p, #instruction p {
+    width: 80%;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    margin:  0pc auto;
+}
+
+
 
 /*----Sprite----*/
 
